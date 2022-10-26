@@ -1,1 +1,41 @@
+body {
+    margin: 0;
+}
 
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+.toc-container {
+    margin: 1em;
+    max-width: 600px;
+
+}
+
+.recipe-container {
+    padding: 1em;
+    max-width: 600px;
+    border: 1px solid grey;
+}
+
+.recipe-container h1 {
+    margin-bottom: 0.75em;
+}
+
+.recipe {
+    margin: 1em;
+}
+
+.recipe-container img {
+    max-width: 250px;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.recipe-description {}
+
+.ingredient-container {}
+
+.directions-container {}
