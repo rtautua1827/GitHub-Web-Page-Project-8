@@ -1,5 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
+    background-color: lightgray;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1,
@@ -8,20 +14,59 @@ h3 {
     margin: 0;
 }
 
-.toc-container {
-    margin: 1em;
-    max-width: 600px;
+.top {
+    font-size: 1.75em;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
 
+.top button {
+    font-size: 1em;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 0.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: black;
+    background: lightblue;
+    text-decoration: none;
+}
+
+.toc-container {
+    position: fixed;
+    margin-top: 1em;
+    margin-left: 1em;
+    max-width: 33.33%;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 3px;
+    line-height: 1.5em;
+}
+
+.toc {
+    padding: 0.5em;
+}
+
+.header {
+    font-weight: 500;
+    font-size: 4em;
+    text-align: center;
 }
 
 .recipe-container {
     padding: 1em;
-    max-width: 600px;
+    max-width: 650px;
     border: 1px solid grey;
+    border-radius: 3px;
+    background-color: white;
+    margin: auto;
+
 }
 
 .recipe-container h1 {
-    margin-bottom: 0.75em;
+    margin-bottom: 0.5em;
+
 }
 
 .recipe {
@@ -32,10 +77,18 @@ h3 {
     max-width: 250px;
     max-height: 250px;
     object-fit: cover;
+    border-radius: 5%;
+
 }
 
-.recipe-description {}
+.recipe-description {
+    font-size: 1.25em;
+}
 
-.ingredient-container {}
+.ingredient-container {
+    line-height: 1.5em;
+}
 
-.directions-container {}
+.directions-container {
+    line-height: 1.75em;
+}
